@@ -6,7 +6,7 @@
 /*   By: felice <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/16 13:05:23 by felice            #+#    #+#             */
-/*   Updated: 2024/03/16 15:32:21 by felice           ###   ########.fr       */
+/*   Updated: 2024/05/16 19:59:13 by felice           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,20 +17,16 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-void	ft_is_negative(int n);
+void	ft_is_negative(int n)
+{
+	if (n < '0')
+		ft_putchar('N');
+	else
+		ft_putchar('P');
+}
 
 int	main(void)
 {
-	int	n;
-
-	if (n < '0')
-	{
-		ft_putchar('N')
-	}
-	else
-	{
-		ft_putchar('P')
-	}
+	ft_is_negative(0);
 	return (0);
 }
-

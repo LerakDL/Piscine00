@@ -6,7 +6,7 @@
 /*   By: felice <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/15 21:24:08 by felice            #+#    #+#             */
-/*   Updated: 2024/03/16 19:00:34 by felice           ###   ########.fr       */
+/*   Updated: 2024/04/04 12:52:35 by felice           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,9 @@ void	ft_print_numbers(void);
 
 int	main(void)
 {
-	char	i;
+	int	i;
 
-	i = '0';
+	i = '1';
 	while (i <= '9')
 		ft_putchar(i++);
 	return (0);
