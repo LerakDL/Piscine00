@@ -6,7 +6,7 @@
 /*   By: felice <namkamch@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/25 20:46:46 by felice            #+#    #+#             */
-/*   Updated: 2024/04/02 20:31:33 by felice           ###   ########.fr       */
+/*   Updated: 2024/08/03 00:39:01 by felice           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,9 +30,7 @@ void	ad_print_space(void)
 	ft_putchar(' ');
 }
 
-void	ft_print_comb(void);
-
-int	main(void)
+void	ft_print_comb(void)
 {
 	char	c;
 	char	d;
@@ -56,5 +54,10 @@ int	main(void)
 		}
 		c++;
 	}
+}
+
+int	main(void)
+{
+	ft_print_comb();
 	return (0);
 }
